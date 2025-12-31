@@ -31,7 +31,7 @@ export default function Modal({ isOpen, onClose }: Props) {
     <div className={styles.overlay} onClick={handleOverlayClick}>
       <div className={styles.modalContent}>
         <button className={styles.closeIcon} onClick={onClose}>
-          <IoClose />
+          <><IoClose /></>
         </button>
         <h2>How to Play</h2>
         <ul>
